@@ -1,6 +1,8 @@
 # bmicalc
 
-A new Flutter project.
+A Flutter Project to use height and weight to Calculate One's Body Mass Index. For more information as to what body mass index is, and what it actually signifies, go over to: https://www.cdc.gov/healthyweight/assessing/bmi/index.html.
+
+This project takes in three parameters, height through a slider widget, and weight through a couple of buttons to increment or decrement from a initial value of 70. (That of height is 180.). Then we use the Navigator.push() mechanism to navigate to another page through a route to the required file, where the results are displayed. 
 
 ## Getting Started
 
